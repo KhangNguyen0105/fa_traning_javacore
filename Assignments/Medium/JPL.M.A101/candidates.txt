@@ -1,0 +1,3 @@
+Khang Nguyen, 2004-05-01, Quy Nhon, Binh Dinh, 123456789, khang@gmail.com
+Another Khang Nguyen, 2004-05-01, Tay Son, Binh Dinh, 987654321, anotherkhang@gmail.com, 2.0, Java;SQL
+Lien Ho, 2004-01-02, Tay Son, 456789123, lien@gmail.com, 06-2024, Good, ABC University

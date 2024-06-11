@@ -1,0 +1,16 @@
+CREATE TABLE Bill (
+billCode VARCHAR(50) PRIMARY KEY,
+customerName VARCHAR(50),
+createDate VARCHAR(50),
+discount FLOAT,
+totalPrice FLOAT)
+
+CREATE TABLE Item (
+productName VARCHAR(50),
+billCode VARCHAR(50) FOREIGN KEY REFERENCES Bill(billCode)
+	ON DELETE CASCADE ON UPDATE CASCADE,
+quantity INT,
+price FLOAT)
+
+SELECT * FROM Bill
+SELECT * FROM Item
